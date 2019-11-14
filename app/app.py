@@ -15,4 +15,4 @@ def hello():
 if __name__ == "__main__":      #On running python app.py
     #Initialized db
     #Start app
-    app.run(debug=True)         #Run the flask App
+    app.run('0.0.0.0',debug=False)         #Run the flask App
