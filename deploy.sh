@@ -15,6 +15,6 @@ docker image build -t membership-img .
 docker stop membership-container
 docker rm membership-container
 
-docker run -d --name membership-container -p 5000:5000 membership-img
+docker run -d --name membership-container -p 80:5000 membership-img
 
 
