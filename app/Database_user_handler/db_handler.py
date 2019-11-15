@@ -6,7 +6,7 @@ class Db_handler:
         self.db, self.membership_collection = self.connection()
         
     def connection(self):
-        client = MongoClient('mongodb://3.227.75.85:80/')
+        client = MongoClient('3.227.75.85', 80)
         db = client['losFieles']
         colllection = db['membership']
 
